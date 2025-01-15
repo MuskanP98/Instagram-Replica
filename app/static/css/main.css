@@ -1,0 +1,39 @@
+body {
+    padding-top: 5rem;
+}
+
+.flashes {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.flashes li {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid transparent;
+}
+
+.flashes li.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.flashes li.info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.flashes li.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.flashes li.danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
